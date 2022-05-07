@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.navbar {
+    padding-top: 0px !important;
+}
+.collapse{
+    background-color: #301c4c;
+    width: 80%;
+    height: 90px;
+}
+.icontop {
+    padding-left: 20px;
+}
+nav .navbar-nav li a{
+    color: white !important;
+}
+.nav-item {
+    padding-left: 20px !important;
+}
+.nav-icon .icontop {
+    color: aliceblue;
+    padding-right: 10px;
+    margin-right: 20px;
+    font-size: x-large;
+}
+.leftmain {
+    float: left;
+    width: 82%;
+    height: 100vh;
+    background-color: #ede5f5;
+}
+.rightmain {
+    width: 18%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    top: 0;
+    padding: 10px;
+    display: table;
+}
+.tips {
+
+    margin: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.tiptext {
+    text-align: left;
+    padding-left: 10px;
+}
+.hi{
+    width: 70%;
+    height: 120px;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+.datee {
+    margin: 10px;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: #b68fed;
+    width: 150px;
+    height: 40px;
+
+    
+}
+.th {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.dates {
+    margin-left: 460px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+}
