@@ -155,17 +155,19 @@ nav .navbar-nav li a{
     font-size: large;
 }
 .todo {
-    margin: 50px;
     text-align: left;
-    width: 1200px;
+    width: 1300px;
     height: 50px;
 }
 .t1 {
-    margin-left: 10px;
+    margin-left: 30px;
+}
+.rt {
+    margin-left: 30px;
 }
 .time2 {
     float: left;
-    margin-left: 30px;
+    margin-left: 75px;
     color: #746d6d;
 }
 .dp2 {
@@ -191,4 +193,14 @@ nav .navbar-nav li a{
 .week{
     margin-left: 13px;
     color: #8d5dd0;
+}
+.fix{
+    float: right;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    right: 0;
+    width: 70px;
+
 }
