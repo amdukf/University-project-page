@@ -87,6 +87,12 @@ nav .navbar-nav li a{
 .co {
     color: rgb(101, 96, 96);
     font-size: x-large;
+    margin-right: 55px;
+}
+.co2 {
+    color: rgb(101, 96, 96);
+    font-size: x-large;
+    margin-right: 90px;
 
 }
 .view {
@@ -170,14 +176,33 @@ nav .navbar-nav li a{
     margin-left: 75px;
     color: #746d6d;
 }
+.archive {
+    float: right;
+    width: 24px;
+    margin-right: 40px;
+    display: none;
+}
+.archive2 {
+    float: right;
+    width: 22px;
+    margin-right: 200px;
+    display: none;
+}
 .dp2 {
     padding-left: 10px;
     position: absolute;
     color: #746d6d;
 }
-.todo:hover{
-    background-color: #b68fed;
+.todo:hover {
+    background-color: #ebe1f8;
 }
+.todo:hover .archive{
+    display: inline-block;
+}
+.todo:hover .archive2{
+    display: inline-block;
+}
+
 .datebox {
     width: 180px;
     height: 50px;
@@ -202,5 +227,4 @@ nav .navbar-nav li a{
     margin-right: 20px;
     right: 0;
     width: 70px;
-
 }
