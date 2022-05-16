@@ -29,6 +29,7 @@ nav .navbar-nav li a{
     height: 150vh;
     background-color: #ede5f5;
     text-align: center;
+    display: flexbox;
 }
 .rightmain {
     width: 18%;
@@ -36,7 +37,7 @@ nav .navbar-nav li a{
     float: right;
     top: 0;
     padding: 10px;
-    display: table;
+    display: flexbox;
 }
 .tips {
     margin-left: 10px;
@@ -45,7 +46,6 @@ nav .navbar-nav li a{
     border-radius: 10px;
 }
 .tiptext {
-    padding-left: 20px;
     padding-right: 20px;
     text-align: left;
     padding-left: 10px;
@@ -72,7 +72,6 @@ nav .navbar-nav li a{
 .th {
     display: inline-block;
     padding-top: 30px;
-    float: left;
     padding-left: 30px;
 }
 .dates {
@@ -116,6 +115,7 @@ nav .navbar-nav li a{
     padding-left: 30px;
     width: 550px;
 }
+
 .tp{
     padding-left: 20px;
     position: absolute;
@@ -170,6 +170,9 @@ nav .navbar-nav li a{
 }
 .rt {
     margin-left: 30px;
+    
+    width: 20px;
+    height: 20px;
 }
 .time2 {
     float: left;
@@ -181,26 +184,40 @@ nav .navbar-nav li a{
     width: 24px;
     margin-right: 40px;
     display: none;
+    margin-top: -10px;
 }
 .archive2 {
     float: right;
     width: 22px;
     margin-right: 200px;
     display: none;
-}
-.dp2 {
-    padding-left: 10px;
-    position: absolute;
-    color: #746d6d;
+    margin-top: -10px;
+
 }
 .todo:hover {
     background-color: #ebe1f8;
 }
 .todo:hover .archive{
-    display: inline-block;
+    display: flex;
 }
 .todo:hover .archive2{
-    display: inline-block;
+    display: flex
+}
+.todo:hover .imgtodo{
+    display: flex
+}
+.imgtodo {
+    margin-left: 1150px;
+    margin-top: -14px;
+}
+.pto {
+    width: 30px;
+    margin-right: -10px;
+}
+.dp2 {
+    padding-left: 10px;
+    position: absolute;
+    color: #746d6d;
 }
 
 .datebox {
@@ -220,11 +237,13 @@ nav .navbar-nav li a{
     color: #8d5dd0;
 }
 .fix{
-    float: right;
     position: fixed;
     bottom: 0;
     margin-bottom: 20px;
     margin-right: 20px;
     right: 0;
     width: 70px;
+}
+.checkbox{
+    width: 100px;
 }
